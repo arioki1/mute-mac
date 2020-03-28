@@ -760,12 +760,12 @@
                             </textField>
                             <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="4TQ-VZ-TmS">
                                 <rect key="frame" x="314" y="13" width="66" height="32"/>
-                                <buttonCell key="cell" type="push" title="Quit" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="fZe-Yb-1MB">
+                                <buttonCell key="cell" type="push" title="Close" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="fZe-Yb-1MB">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
                                 <connections>
-                                    <action selector="quitPressed:" target="XfG-lQ-9wD" id="nGB-Gp-XJh"/>
+                                    <action selector="closePressed:" target="XfG-lQ-9wD" id="nGB-Gp-XJh"/>
                                 </connections>
                             </button>
                             <button verticalHuggingPriority="749" verticalCompressionResistancePriority="751" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KAa-G4-Uci">
