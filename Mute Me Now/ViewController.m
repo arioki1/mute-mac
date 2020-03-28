@@ -1,9 +1,9 @@
 #import "ViewController.h"
 #import "AppDelegate.h"
 
-static NSString *githubURL = @"https://github.com/pixel-point/mute-me";
-static NSString *projectURL = @"https://muteme.pixelpoint.io/";
-static NSString *companyURL = @"https://pixelpoint.io/";
+static NSString *githubURL = @"https://github.com/lhaeger/mute-me";
+static NSString *projectURL = @"https://github.com/lhaeger/mute-me";
+static NSString *companyURL = @"https://github.com/lhaeger/mute-me";
 
 static NSString *const MASCustomShortcutKey = @"customShortcut";
 
