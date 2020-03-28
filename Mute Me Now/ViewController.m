@@ -81,8 +81,10 @@ BOOL SMLoginItemSetEnabled(CFStringRef string, Boolean enableState);
     [[self.view window] center];
 }
 
-- (IBAction)quitPressed:(id)sender {
-    [NSApp terminate:nil]; //TODO or quit about window
+- (IBAction)closePressed:(id)sender {
+    //[NSApp terminate:nil]; //TODO or quit about window
+    [[self.view window] close];
+
 }
 - (IBAction)onGithubPressed:(id)sender {
     [[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:githubURL]];
