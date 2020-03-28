@@ -120,10 +120,9 @@
 			};
 			buildConfigurationList = 11B86E701EDEAC970069D254 /* Build configuration list for PBXProject "Mute Me Now Launcher" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				English,
 				en,
 				Base,
 			);
