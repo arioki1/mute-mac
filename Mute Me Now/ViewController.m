@@ -50,7 +50,7 @@ BOOL SMLoginItemSetEnabled(CFStringRef string, Boolean enableState);
     NSString *version = [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"];
     NSString *buildVersion = [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleVersion"];
     NSString *buildLabel = [buildVersion isEqualToString:@"1"] ? @"" :[NSString stringWithFormat:@"(%@)", buildVersion];
-    NSString *versionFieldValue = [NSString stringWithFormat:@"Version %@%@", version, buildLabel];
+    NSString *versionFieldValue = [NSString stringWithFormat:@"v%@ %@", version, buildLabel];
     [self.versionTextFieldCell setStringValue:versionFieldValue];
 }
 
