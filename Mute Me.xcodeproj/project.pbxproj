@@ -64,6 +64,13 @@
 			remoteGlobalIDString = 0D827D371990D5E70010B8EF;
 			remoteInfo = Demo;
 		};
+		C5765D63242FCAFC0093AB0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5321772242FBC6B006402CF /* MASShortcut.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D827CD21990D4420010B8EF;
+			remoteInfo = MASShortcut;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -125,9 +132,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C532177E242FBCE2006402CF /* MASShortcut.framework in Frameworks */,
 				C6ABF3272163A01B00A62E2F /* CoreAudio.framework in Frameworks */,
 				11B86E981EDEC6720069D254 /* ServiceManagement.framework in Frameworks */,
-				C532177E242FBCE2006402CF /* MASShortcut.framework in Frameworks */,
 				11B86E661EDE9BD00069D254 /* DFRFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -242,6 +249,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				C5765D64242FCAFC0093AB0C /* PBXTargetDependency */,
 				11EA56DA1EF3CD8C003AF236 /* PBXTargetDependency */,
 			);
 			name = "Mute Me";
@@ -380,6 +388,11 @@
 			isa = PBXTargetDependency;
 			name = "Mute Me Now Launcher";
 			targetProxy = 11EA56D91EF3CD8C003AF236 /* PBXContainerItemProxy */;
+		};
+		C5765D64242FCAFC0093AB0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MASShortcut;
+			targetProxy = C5765D63242FCAFC0093AB0C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
