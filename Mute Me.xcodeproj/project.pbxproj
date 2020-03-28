@@ -242,10 +242,9 @@
 			};
 			buildConfigurationList = 11B86E481EDE9B4C0069D254 /* Build configuration list for PBXProject "Mute Me" */;
 			compatibilityVersion = "Xcode 3.1";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				English,
 				en,
 				Base,
 			);
