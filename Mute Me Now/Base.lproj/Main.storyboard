@@ -804,7 +804,7 @@
                             </button>
                             <button misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="03l-eq-BdN">
                                 <rect key="frame" x="20" y="222" width="194" height="18"/>
-                                <buttonCell key="cell" type="check" title="Hide menu bar icon" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="n61-0U-soc">
+                                <buttonCell key="cell" type="check" title="Hide menu bar icon" bezelStyle="regularSquare" imagePosition="left" inset="2" id="n61-0U-soc">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
@@ -814,7 +814,7 @@
                             </button>
                             <button translatesAutoresizingMaskIntoConstraints="NO" id="qVT-Gc-UaR">
                                 <rect key="frame" x="20" y="187" width="238" height="18"/>
-                                <buttonCell key="cell" type="check" title="Use menu bar icon as toggle switch" bezelStyle="regularSquare" imagePosition="left" inset="2" id="tuY-B8-vFd">
+                                <buttonCell key="cell" type="check" title="Use menu bar icon as toggle switch" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="tuY-B8-vFd">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
@@ -824,7 +824,7 @@
                             </button>
                             <button translatesAutoresizingMaskIntoConstraints="NO" id="dPJ-wa-aGh">
                                 <rect key="frame" x="20" y="150" width="200" height="18"/>
-                                <buttonCell key="cell" type="check" title="Use alternate menu bar icons" bezelStyle="regularSquare" imagePosition="left" inset="2" id="Lo2-Nt-BC5">
+                                <buttonCell key="cell" type="check" title="Use alternate menu bar icons" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="Lo2-Nt-BC5">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
