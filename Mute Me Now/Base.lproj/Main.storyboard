@@ -750,9 +750,9 @@
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
-                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IZW-rf-f4A">
+                            <textField hidden="YES" horizontalHuggingPriority="251" verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IZW-rf-f4A">
                                 <rect key="frame" x="112" y="22" width="31" height="17"/>
-                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Visit" id="ksb-oB-QsG">
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" enabled="NO" sendsActionOnEndEditing="YES" title="Visit" id="ksb-oB-QsG">
                                     <font key="font" metaFont="system"/>
                                     <color key="textColor" red="0.50980392159999999" green="0.50980392159999999" blue="0.50980392159999999" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
@@ -778,12 +778,12 @@
                                     <action selector="onGithubPressed:" target="XfG-lQ-9wD" id="SOm-af-7F5"/>
                                 </connections>
                             </button>
-                            <button verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PYQ-lw-EpL">
+                            <button hidden="YES" verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PYQ-lw-EpL">
                                 <rect key="frame" x="144" y="14" width="53" height="32"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="53" id="abk-Fd-YcD"/>
                                 </constraints>
-                                <buttonCell key="cell" type="bevel" title="Website" bezelStyle="rounded" alignment="center" inset="2" id="tVc-RU-uhR">
+                                <buttonCell key="cell" type="bevel" title="Website" bezelStyle="rounded" alignment="center" enabled="NO" inset="2" id="tVc-RU-uhR">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
