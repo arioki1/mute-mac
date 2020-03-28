@@ -9,6 +9,8 @@ static NSString *const MASCustomShortcutKey = @"customShortcut";
 
 static void *MASObservingContext = &MASObservingContext;
 
+BOOL SMLoginItemSetEnabled(CFStringRef string, Boolean enableState);
+
 @implementation ViewController
 
 - (void)viewDidLoad {
