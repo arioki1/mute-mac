@@ -104,12 +104,11 @@
 		11B86E6D1EDEAC970069D254 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 1140;
 				ORGANIZATIONNAME = "Pixel Point";
 				TargetAttributes = {
 					11B86E741EDEAC970069D254 = {
 						CreatedOnToolsVersion = 8.3.1;
-						DevelopmentTeam = 4TVB38S7R4;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.Sandbox = {
@@ -124,6 +123,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -268,9 +268,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "Mute Me Now Launcher/Mute Me Now Launcher.entitlements";
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 4TVB38S7R4;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Mute Me Now Launcher/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Pixel-Point.Mute-Me-Now-Launcher";
