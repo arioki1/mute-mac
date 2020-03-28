@@ -381,10 +381,10 @@ void *kUserDataHint = &kUserDataHint;
 - (void)resetToolTips
 {
     if (_shortcutToolTipTag) {
-        [self removeToolTip:_shortcutToolTipTag], _shortcutToolTipTag = 0;
+        (void)([self removeToolTip:_shortcutToolTipTag]), _shortcutToolTipTag = 0;
     }
     if (_hintToolTipTag) {
-        [self removeToolTip:_hintToolTipTag], _hintToolTipTag = 0;
+        (void)([self removeToolTip:_hintToolTipTag]), _hintToolTipTag = 0;
     }
     
     if ((self.shortcutValue == nil) || self.recording || !self.enabled) return;
@@ -449,10 +449,10 @@ void *kUserDataHint = &kUserDataHint;
             else {
                 // Verify possible shortcut
                 if (shortcut.keyCodeString.length > 0) {
-                    if ([_shortcutValidator isShortcutValid:shortcut]) {
+                    if ([self->_shortcutValidator isShortcutValid:shortcut]) {
                         // Verify that shortcut is not used
                         NSString *explanation = nil;
-                        if ([_shortcutValidator isShortcutAlreadyTakenBySystem:shortcut explanation:&explanation]) {
+                        if ([self->_shortcutValidator isShortcutAlreadyTakenBySystem:shortcut explanation:&explanation]) {
                             // Prevent cancel of recording when Alert window is key
                             [weakSelf activateResignObserver:NO];
                             [weakSelf activateEventMonitoring:NO];
