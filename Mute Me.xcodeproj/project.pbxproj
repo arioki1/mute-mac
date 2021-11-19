@@ -22,8 +22,7 @@
 		5DA60BDA1EFAB9270045BDCF /* statusBarIcon2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DA60BD91EFAB9270045BDCF /* statusBarIcon2.png */; };
 		5DA60C531EFBC5400045BDCF /* statusBarIcon3.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DA60C521EFBC5400045BDCF /* statusBarIcon3.png */; };
 		5DA60C551EFBC5D30045BDCF /* statusBarIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DA60C541EFBC5D30045BDCF /* statusBarIcon.png */; };
-		C532177E242FBCE2006402CF /* MASShortcut.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5321779242FBC6B006402CF /* MASShortcut.framework */; };
-		C532177F242FBCE2006402CF /* MASShortcut.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C5321779242FBC6B006402CF /* MASShortcut.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		9DBE089104CB6CD04A910A3A /* Pods_Mute_Me.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C4998614A243EEB46C6E362 /* Pods_Mute_Me.framework */; };
 		C6ABF3272163A01B00A62E2F /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6ABF3262163A01B00A62E2F /* CoreAudio.framework */; };
 		C6B6195A2167483F00F06C6B /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = C6B619592167483F00F06C6B /* .gitignore */; };
 /* End PBXBuildFile section */
@@ -43,34 +42,6 @@
 			remoteGlobalIDString = 11B86E741EDEAC970069D254;
 			remoteInfo = "Mute Me Now Launcher";
 		};
-		C5321778242FBC6B006402CF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C5321772242FBC6B006402CF /* MASShortcut.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 0D827CD31990D4420010B8EF;
-			remoteInfo = MASShortcut;
-		};
-		C532177A242FBC6B006402CF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C5321772242FBC6B006402CF /* MASShortcut.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 0D827D8319910AFF0010B8EF;
-			remoteInfo = MASShortcutTests;
-		};
-		C532177C242FBC6B006402CF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C5321772242FBC6B006402CF /* MASShortcut.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 0D827D371990D5E70010B8EF;
-			remoteInfo = Demo;
-		};
-		C5765D63242FCAFC0093AB0C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C5321772242FBC6B006402CF /* MASShortcut.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 0D827CD21990D4420010B8EF;
-			remoteInfo = MASShortcut;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -82,17 +53,6 @@
 			files = (
 				11EA56D81EF3C2AC003AF236 /* Mute Me Now Launcher.app in CopyFiles */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C5321780242FBCE2006402CF /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				C532177F242FBCE2006402CF /* MASShortcut.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -115,13 +75,15 @@
 		11B86E8C1EDEAC980069D254 /* Mute Me Now Launcher.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "Mute Me Now Launcher.xcodeproj"; path = "Mute Me Now/Mute Me Now Launcher/Mute Me Now Launcher.xcodeproj"; sourceTree = "<group>"; };
 		11B86E921EDEAD1D0069D254 /* ServiceManagement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ServiceManagement.framework; path = System/Library/Frameworks/ServiceManagement.framework; sourceTree = SDKROOT; };
 		11B86E9A1EDECB3F0069D254 /* Mute Me Now.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Mute Me Now.entitlements"; sourceTree = "<group>"; };
+		2C4998614A243EEB46C6E362 /* Pods_Mute_Me.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mute_Me.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D47631F1F0562E6005E8DB0 /* tray-unactive-white@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tray-unactive-white@2x.png"; sourceTree = "<group>"; };
 		5D4763201F0562E6005E8DB0 /* tray-unactive-black@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tray-unactive-black@2x.png"; sourceTree = "<group>"; };
 		5D4763211F0562E6005E8DB0 /* tray-active@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tray-active@2x.png"; sourceTree = "<group>"; };
 		5DA60BD91EFAB9270045BDCF /* statusBarIcon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = statusBarIcon2.png; sourceTree = "<group>"; };
 		5DA60C521EFBC5400045BDCF /* statusBarIcon3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = statusBarIcon3.png; sourceTree = "<group>"; };
 		5DA60C541EFBC5D30045BDCF /* statusBarIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = statusBarIcon.png; sourceTree = "<group>"; };
-		C5321772242FBC6B006402CF /* MASShortcut.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MASShortcut.xcodeproj; path = MASShortcut/MASShortcut.xcodeproj; sourceTree = "<group>"; };
+		7187A6C3CA3CE0A14998BA62 /* Pods-Mute Me.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mute Me.debug.xcconfig"; path = "Target Support Files/Pods-Mute Me/Pods-Mute Me.debug.xcconfig"; sourceTree = "<group>"; };
+		7BE82BA8866BE5F02B1C4D55 /* Pods-Mute Me.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mute Me.release.xcconfig"; path = "Target Support Files/Pods-Mute Me/Pods-Mute Me.release.xcconfig"; sourceTree = "<group>"; };
 		C6ABF32421639AAD00A62E2F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		C6ABF3262163A01B00A62E2F /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
 		C6B619592167483F00F06C6B /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
@@ -132,10 +94,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C532177E242FBCE2006402CF /* MASShortcut.framework in Frameworks */,
 				C6ABF3272163A01B00A62E2F /* CoreAudio.framework in Frameworks */,
 				11B86E981EDEC6720069D254 /* ServiceManagement.framework in Frameworks */,
 				11B86E661EDE9BD00069D254 /* DFRFoundation.framework in Frameworks */,
+				9DBE089104CB6CD04A910A3A /* Pods_Mute_Me.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,7 +115,7 @@
 				11B86E4E1EDE9B4D0069D254 /* Products */,
 				11B86E641EDE9BD00069D254 /* Frameworks */,
 				11B86E8C1EDEAC980069D254 /* Mute Me Now Launcher.xcodeproj */,
-				C5321772242FBC6B006402CF /* MASShortcut.xcodeproj */,
+				6A3C3D4F7A3B83ED7918724D /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -201,6 +163,7 @@
 				C6ABF32421639AAD00A62E2F /* AVFoundation.framework */,
 				11B86E921EDEAD1D0069D254 /* ServiceManagement.framework */,
 				11B86E651EDE9BD00069D254 /* DFRFoundation.framework */,
+				2C4998614A243EEB46C6E362 /* Pods_Mute_Me.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -223,14 +186,13 @@
 			name = Graphics;
 			sourceTree = "<group>";
 		};
-		C5321773242FBC6B006402CF /* Products */ = {
+		6A3C3D4F7A3B83ED7918724D /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C5321779242FBC6B006402CF /* MASShortcut.framework */,
-				C532177B242FBC6B006402CF /* MASShortcutTests.xctest */,
-				C532177D242FBC6B006402CF /* Demo.app */,
+				7187A6C3CA3CE0A14998BA62 /* Pods-Mute Me.debug.xcconfig */,
+				7BE82BA8866BE5F02B1C4D55 /* Pods-Mute Me.release.xcconfig */,
 			);
-			name = Products;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,16 +202,16 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 11B86E611EDE9B4D0069D254 /* Build configuration list for PBXNativeTarget "Mute Me" */;
 			buildPhases = (
+				A4C3FAB5A6FF162328234B65 /* [CP] Check Pods Manifest.lock */,
 				11B86E491EDE9B4D0069D254 /* Sources */,
 				11B86E4A1EDE9B4D0069D254 /* Frameworks */,
 				11B86E4B1EDE9B4D0069D254 /* Resources */,
 				11B86E941EDEAD980069D254 /* CopyFiles */,
-				C5321780242FBCE2006402CF /* Embed Frameworks */,
+				6674734D620BB6A495599375 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C5765D64242FCAFC0093AB0C /* PBXTargetDependency */,
 				11EA56DA1EF3CD8C003AF236 /* PBXTargetDependency */,
 			);
 			name = "Mute Me";
@@ -303,10 +265,6 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = C5321773242FBC6B006402CF /* Products */;
-					ProjectRef = C5321772242FBC6B006402CF /* MASShortcut.xcodeproj */;
-				},
-				{
 					ProductGroup = 11C515641EEA9F6E004CE22A /* Products */;
 					ProjectRef = 11B86E8C1EDEAC980069D254 /* Mute Me Now Launcher.xcodeproj */;
 				},
@@ -324,27 +282,6 @@
 			fileType = wrapper.application;
 			path = "Mute Me Now Launcher.app";
 			remoteRef = 11C515671EEA9F6E004CE22A /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		C5321779242FBC6B006402CF /* MASShortcut.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = MASShortcut.framework;
-			remoteRef = C5321778242FBC6B006402CF /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		C532177B242FBC6B006402CF /* MASShortcutTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = MASShortcutTests.xctest;
-			remoteRef = C532177A242FBC6B006402CF /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		C532177D242FBC6B006402CF /* Demo.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = Demo.app;
-			remoteRef = C532177C242FBC6B006402CF /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -368,6 +305,49 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6674734D620BB6A495599375 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mute Me/Pods-Mute Me-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MASShortcut/MASShortcut.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MASShortcut.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Mute Me/Pods-Mute Me-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4C3FAB5A6FF162328234B65 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Mute Me-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		11B86E491EDE9B4D0069D254 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -387,11 +367,6 @@
 			isa = PBXTargetDependency;
 			name = "Mute Me Now Launcher";
 			targetProxy = 11EA56D91EF3CD8C003AF236 /* PBXContainerItemProxy */;
-		};
-		C5765D64242FCAFC0093AB0C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = MASShortcut;
-			targetProxy = C5765D63242FCAFC0093AB0C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -433,6 +408,7 @@
 				CODE_SIGN_IDENTITY = "-";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -482,6 +458,7 @@
 				CODE_SIGN_IDENTITY = "-";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -500,6 +477,7 @@
 		};
 		11B86E621EDE9B4D0069D254 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7187A6C3CA3CE0A14998BA62 /* Pods-Mute Me.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "Mute Me Now/Mute Me Now.entitlements";
@@ -507,6 +485,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 476dba8;
 				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
@@ -523,6 +502,7 @@
 		};
 		11B86E631EDE9B4D0069D254 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BE82BA8866BE5F02B1C4D55 /* Pods-Mute Me.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "Mute Me Now/Mute Me Now.entitlements";
@@ -531,6 +511,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 476dba8;
 				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
